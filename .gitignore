@@ -32,3 +32,6 @@ coverage/
 
 # Misc
 .git/
+
+#log files
+**/logs/

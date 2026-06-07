@@ -45,6 +45,7 @@ The API is organized by domain module under `backend/src/modules/`, each with it
 | `workout`   | Workout plans, days, items, exercise assignment, and workout logs        |
 | `sessions`  | Session booking with conflict detection, status updates                  |
 | `checkins`  | Client check-ins, body measurements, and simple progress trend           |
+| `analytics` | Studio dashboard overview numbers (clients, sessions, workouts, check-ins)|
 
 ## Tech Stack
 
@@ -139,6 +140,9 @@ allow the client themselves to access their own data.
 - `POST/GET /api/clients/:clientId/measurements` — submit/list body measurements (weight, waist, chest, arms, legs)
 - `GET /api/clients/:clientId/progress/trend` — simple weight trend (latest vs. previous entry)
 
+**Analytics**
+- `GET /api/studios/:studioId/analytics/overview` — dashboard numbers: active clients, new clients this month, sessions this week, completed/missed sessions this month, workout completion rate, missed check-ins (owners see studio-wide numbers, trainers see numbers scoped to their own clients/sessions/plans)
+
 ## Roadmap (MVP phases)
 
 - [x] Phase 0–2 — Repo setup, database foundation, backend scaffolding
@@ -147,7 +151,7 @@ allow the client themselves to access their own data.
 - [x] Phase 5 — Workout plans, items, and logging
 - [x] Phase 6 — Session booking with conflict detection
 - [x] Phase 7 — Check-ins, measurements, and progress trend
-- [ ] Phase 8 — Business analytics dashboard
+- [x] Phase 8 — Business analytics overview
 - [ ] Phase 9 — Frontend dashboard
 - [ ] Phase 10 — Deployment and polish
 
