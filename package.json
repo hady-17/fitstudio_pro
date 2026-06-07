@@ -1,0 +1,30 @@
+{
+  "name": "fitstudio-pro",
+  "version": "1.0.0",
+  "description": "Full-stack SaaS platform for personal trainers and fitness studios",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend",
+    "worker"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces",
+    "format": "prettier --write \"**/*.{ts,tsx,json,md}\"",
+    "backend:dev": "npm --workspace backend run dev",
+    "backend:build": "npm --workspace backend run build",
+    "frontend:dev": "npm --workspace frontend run dev",
+    "frontend:build": "npm --workspace frontend run build",
+    "worker:dev": "npm --workspace worker run dev",
+    "worker:build": "npm --workspace worker run build"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.0",
+    "rimraf": "^6.1.3",
+    "supabase": "^2.101.0"
+  }
+}

@@ -1,0 +1,908 @@
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 11:42:52"}
+{"level":"http","message":"GET / 404 6.956 ms","timestamp":"2026-05-25 11:42:55"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 11:44:33"}
+{"isOperational":true,"level":"error","message":"Error: Route not found: GET /","stack":"Error: Route not found: GET /\n    at notFoundMiddleware (D:\\fitstudio_pro\\backend\\src\\middleware\\notFound.middleware.ts:10:8)\n    at Layer.handle [as handle_request] (D:\\fitstudio_pro\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\fitstudio_pro\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\fitstudio_pro\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\fitstudio_pro\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\fitstudio_pro\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at logger (D:\\fitstudio_pro\\node_modules\\morgan\\index.js:144:5)\n    at Layer.handle [as handle_request] (D:\\fitstudio_pro\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\fitstudio_pro\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\fitstudio_pro\\node_modules\\express\\lib\\router\\index.js:286:9","statusCode":404,"timestamp":"2026-05-25 11:44:36"}
+{"level":"http","message":"GET / 404 6.424 ms","timestamp":"2026-05-25 11:44:36"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 11:45:00"}
+{"isOperational":true,"level":"error","message":"Route not found: GET /","stack":"Error: Route not found: GET /\n    at notFoundMiddleware (D:\\fitstudio_pro\\backend\\src\\middleware\\notFound.middleware.ts:10:8)\n    at Layer.handle [as handle_request] (D:\\fitstudio_pro\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\fitstudio_pro\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\fitstudio_pro\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\fitstudio_pro\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\fitstudio_pro\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at logger (D:\\fitstudio_pro\\node_modules\\morgan\\index.js:144:5)\n    at Layer.handle [as handle_request] (D:\\fitstudio_pro\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\fitstudio_pro\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\fitstudio_pro\\node_modules\\express\\lib\\router\\index.js:286:9","statusCode":404,"timestamp":"2026-05-25 11:45:03"}
+{"level":"http","message":"GET / 404 7.269 ms","timestamp":"2026-05-25 11:45:03"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 11:45:22"}
+{"level":"warn","message":"Route not found: GET /","method":"GET","path":"/","statusCode":404,"timestamp":"2026-05-25 11:45:26"}
+{"level":"http","message":"GET / 404 4.255 ms","timestamp":"2026-05-25 11:45:26"}
+{"level":"http","message":"GET /api/health 200 1.589 ms","timestamp":"2026-05-25 11:45:37"}
+{"level":"warn","message":"Route not found: GET /","method":"GET","path":"/","statusCode":404,"timestamp":"2026-05-25 11:46:15"}
+{"level":"http","message":"GET / 404 1.987 ms","timestamp":"2026-05-25 11:46:15"}
+{"level":"http","message":"GET /api/health 200 0.544 ms","timestamp":"2026-05-25 11:46:16"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-05-25 11:46:20"}
+{"level":"http","message":"GET /api/unknown 404 1.177 ms","timestamp":"2026-05-25 11:46:20"}
+{"level":"http","message":"GET /api/health 200 3.470 ms","timestamp":"2026-05-25 12:01:37"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-05-25 12:01:37"}
+{"level":"http","message":"GET /api/unknown 404 2.878 ms","timestamp":"2026-05-25 12:01:37"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-05-25 12:01:37"}
+{"level":"http","message":"GET /api/auth/me 401 2.425 ms","timestamp":"2026-05-25 12:01:37"}
+{"level":"http","message":"GET /api/health 200 3.847 ms","timestamp":"2026-05-25 12:02:28"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-05-25 12:02:28"}
+{"level":"http","message":"GET /api/unknown 404 2.909 ms","timestamp":"2026-05-25 12:02:28"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-05-25 12:02:28"}
+{"level":"http","message":"GET /api/auth/me 401 2.595 ms","timestamp":"2026-05-25 12:02:28"}
+{"level":"http","message":"GET /api/health 200 4.772 ms","timestamp":"2026-05-25 12:03:18"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-05-25 12:03:18"}
+{"level":"http","message":"GET /api/unknown 404 2.481 ms","timestamp":"2026-05-25 12:03:18"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-05-25 12:03:18"}
+{"level":"http","message":"GET /api/auth/me 401 2.361 ms","timestamp":"2026-05-25 12:03:18"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 12:04:17"}
+{"level":"http","message":"GET /api/health 200 4.784 ms","timestamp":"2026-05-25 12:05:00"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-05-25 12:05:00"}
+{"level":"http","message":"GET /api/unknown 404 3.283 ms","timestamp":"2026-05-25 12:05:00"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-05-25 12:05:00"}
+{"level":"http","message":"GET /api/auth/me 401 2.000 ms","timestamp":"2026-05-25 12:05:00"}
+{"level":"http","message":"GET /api/health 200 3.623 ms","timestamp":"2026-05-25 12:22:44"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-05-25 12:22:44"}
+{"level":"http","message":"GET /api/unknown 404 2.408 ms","timestamp":"2026-05-25 12:22:44"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-05-25 12:22:44"}
+{"level":"http","message":"GET /api/auth/me 401 2.138 ms","timestamp":"2026-05-25 12:22:44"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 12:40:59"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 12:41:09"}
+{"level":"http","message":"GET /api/health 200 4.019 ms","timestamp":"2026-05-25 12:41:48"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-05-25 12:41:48"}
+{"level":"http","message":"GET /api/unknown 404 3.579 ms","timestamp":"2026-05-25 12:41:48"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-05-25 12:41:48"}
+{"level":"http","message":"GET /api/auth/me 401 2.453 ms","timestamp":"2026-05-25 12:41:48"}
+{"level":"warn","message":"Route not found: GET /api/studios","method":"GET","path":"/api/studios","statusCode":404,"timestamp":"2026-05-25 12:42:21"}
+{"level":"http","message":"GET /api/studios 404 4.956 ms","timestamp":"2026-05-25 12:42:21"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 12:42:51"}
+{"level":"warn","message":"Route not found: GET /api/studios","method":"GET","path":"/api/studios","statusCode":404,"timestamp":"2026-05-25 12:42:54"}
+{"level":"http","message":"GET /api/studios 404 3.542 ms","timestamp":"2026-05-25 12:42:54"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-05-25 12:43:03"}
+{"level":"http","message":"POST /api/studios 401 1.669 ms","timestamp":"2026-05-25 12:43:03"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-05-25 12:43:32"}
+{"level":"http","message":"POST /api/studios 401 1.107 ms","timestamp":"2026-05-25 12:43:32"}
+{"level":"http","message":"POST /api/studios 201 171.714 ms","timestamp":"2026-05-25 12:47:42"}
+{"level":"warn","message":"User already owns a studio","method":"POST","path":"/api/studios","statusCode":409,"timestamp":"2026-05-25 12:48:46"}
+{"level":"http","message":"POST /api/studios 409 98.978 ms","timestamp":"2026-05-25 12:48:46"}
+{"level":"http","message":"POST /api/studios 201 114.790 ms","timestamp":"2026-05-25 12:49:11"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 12:50:31"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 12:51:04"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 12:51:10"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 12:51:41"}
+{"level":"http","message":"GET /api/studios/me 200 126.536 ms","timestamp":"2026-05-25 12:52:08"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 12:55:13"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 12:55:45"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 12:56:43"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 12:56:47"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 12:57:18"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 12:57:53"}
+{"level":"warn","message":"params.studioId: Invalid studio id","method":"GET","path":"/api/studios/:ffcf83fa-7749-44ef-97a0-3922b6d3d02b","statusCode":400,"timestamp":"2026-05-25 12:58:58"}
+{"level":"http","message":"GET /api/studios/:ffcf83fa-7749-44ef-97a0-3922b6d3d02b 400 101.555 ms","timestamp":"2026-05-25 12:58:58"}
+{"level":"warn","message":"Route not found: GET /api/studios","method":"GET","path":"/api/studios","statusCode":404,"timestamp":"2026-05-25 13:00:03"}
+{"level":"http","message":"GET /api/studios 404 1.940 ms","timestamp":"2026-05-25 13:00:03"}
+{"level":"warn","message":"Route not found: GET /api/studios","method":"GET","path":"/api/studios","statusCode":404,"timestamp":"2026-05-25 13:00:05"}
+{"level":"http","message":"GET /api/studios 404 1.107 ms","timestamp":"2026-05-25 13:00:05"}
+{"level":"warn","message":"You do not have access to this studio","method":"GET","path":"/api/studios/ffcf83fa-7749-44ef-97a0-3922b6d3d02b","statusCode":403,"timestamp":"2026-05-25 13:01:25"}
+{"level":"http","message":"GET /api/studios/ffcf83fa-7749-44ef-97a0-3922b6d3d02b 403 100.302 ms","timestamp":"2026-05-25 13:01:25"}
+{"level":"http","message":"GET /api/studios/me 200 82.083 ms","timestamp":"2026-05-25 13:01:44"}
+{"level":"http","message":"GET /api/studios/d1008db5-cd93-4565-a096-7bede2eae7f1 200 80.088 ms","timestamp":"2026-05-25 13:02:06"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 13:03:22"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 13:03:40"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 13:04:24"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 13:05:00"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 13:05:44"}
+{"level":"http","message":"PATCH /api/studios/d1008db5-cd93-4565-a096-7bede2eae7f1 200 154.120 ms","timestamp":"2026-05-25 13:06:14"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 13:07:39"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 13:07:54"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 13:08:13"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 13:08:57"}
+{"level":"http","message":"GET /api/studios/d1008db5-cd93-4565-a096-7bede2eae7f1/members 200 129.194 ms","timestamp":"2026-05-25 13:09:22"}
+{"level":"warn","message":"params.studioId: Invalid studio id","method":"GET","path":"/api/studios/1008db5-cd93-4565-a096-7bede2eae7f1/members","statusCode":400,"timestamp":"2026-05-25 13:09:36"}
+{"level":"http","message":"GET /api/studios/1008db5-cd93-4565-a096-7bede2eae7f1/members 400 68.380 ms","timestamp":"2026-05-25 13:09:36"}
+{"level":"http","message":"GET /api/studios/D1008db5-cd93-4565-a096-7bede2eae7f1/members 200 81.150 ms","timestamp":"2026-05-25 13:09:44"}
+{"level":"http","message":"GET /api/health 200 4.094 ms","timestamp":"2026-05-25 13:19:06"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-05-25 13:19:06"}
+{"level":"http","message":"GET /api/unknown 404 2.569 ms","timestamp":"2026-05-25 13:19:06"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-05-25 13:19:06"}
+{"level":"http","message":"GET /api/auth/me 401 2.400 ms","timestamp":"2026-05-25 13:19:06"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 22:18:57"}
+{"level":"error","message":"Internal server error","method":"GET","path":"/auth/v1/signup","stack":"SyntaxError: Unexpected token '\"', \"\"{\\n    \\\"\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (D:\\fitstudio_pro\\node_modules\\body-parser\\lib\\types\\json.js:165:10)\n    at parse (D:\\fitstudio_pro\\node_modules\\body-parser\\lib\\types\\json.js:86:15)\n    at D:\\fitstudio_pro\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (D:\\fitstudio_pro\\node_modules\\raw-body\\index.js:238:16)\n    at done (D:\\fitstudio_pro\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (D:\\fitstudio_pro\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)","timestamp":"2026-05-25 22:23:25"}
+{"level":"error","message":"Internal server error","method":"POST","path":"/auth/v1/signup","stack":"SyntaxError: Unexpected token '\"', \"\"{\\n    \\\"\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (D:\\fitstudio_pro\\node_modules\\body-parser\\lib\\types\\json.js:165:10)\n    at parse (D:\\fitstudio_pro\\node_modules\\body-parser\\lib\\types\\json.js:86:15)\n    at D:\\fitstudio_pro\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (D:\\fitstudio_pro\\node_modules\\raw-body\\index.js:238:16)\n    at done (D:\\fitstudio_pro\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (D:\\fitstudio_pro\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)","timestamp":"2026-05-25 22:23:37"}
+{"level":"error","message":"Internal server error","method":"POST","path":"/auth/v1/signup","stack":"SyntaxError: Unexpected token '\"', \"\"{\\n    \\\"\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (D:\\fitstudio_pro\\node_modules\\body-parser\\lib\\types\\json.js:165:10)\n    at parse (D:\\fitstudio_pro\\node_modules\\body-parser\\lib\\types\\json.js:86:15)\n    at D:\\fitstudio_pro\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (D:\\fitstudio_pro\\node_modules\\raw-body\\index.js:238:16)\n    at done (D:\\fitstudio_pro\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (D:\\fitstudio_pro\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)","timestamp":"2026-05-25 22:24:54"}
+{"level":"error","message":"Internal server error","method":"POST","path":"/auth/v1/signup","stack":"SyntaxError: Unexpected token '\"', \"\"{\\n    \\\"\"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (D:\\fitstudio_pro\\node_modules\\body-parser\\lib\\types\\json.js:165:10)\n    at parse (D:\\fitstudio_pro\\node_modules\\body-parser\\lib\\types\\json.js:86:15)\n    at D:\\fitstudio_pro\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (D:\\fitstudio_pro\\node_modules\\raw-body\\index.js:238:16)\n    at done (D:\\fitstudio_pro\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (D:\\fitstudio_pro\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)","timestamp":"2026-05-25 22:24:55"}
+{"level":"warn","message":"Invalid or expired access token","method":"GET","path":"/api/studios/D1008db5-cd93-4565-a096-7bede2eae7f1/members","statusCode":401,"timestamp":"2026-05-25 22:34:02"}
+{"level":"http","message":"GET /api/studios/D1008db5-cd93-4565-a096-7bede2eae7f1/members 401 20.498 ms","timestamp":"2026-05-25 22:34:02"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 22:35:51"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 22:37:04"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 22:37:35"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 22:38:55"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 22:38:59"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 22:39:31"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 22:39:34"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 22:40:22"}
+{"level":"warn","message":"Invalid or expired access token","method":"GET","path":"/api/studios/D1008db5-cd93-4565-a096-7bede2eae7f1/members","statusCode":401,"timestamp":"2026-05-25 22:40:49"}
+{"level":"http","message":"GET /api/studios/D1008db5-cd93-4565-a096-7bede2eae7f1/members 401 23.118 ms","timestamp":"2026-05-25 22:40:49"}
+{"level":"warn","message":"Invalid or expired access token","method":"GET","path":"/api/studios/D1008db5-cd93-4565-a096-7bede2eae7f1/members","statusCode":401,"timestamp":"2026-05-25 22:40:50"}
+{"level":"http","message":"GET /api/studios/D1008db5-cd93-4565-a096-7bede2eae7f1/members 401 6.979 ms","timestamp":"2026-05-25 22:40:50"}
+{"level":"http","message":"POST /api/studios 201 115.607 ms","timestamp":"2026-05-25 22:42:17"}
+{"level":"warn","message":"body.name: Required, body.slug: Required","method":"POST","path":"/api/studios","statusCode":400,"timestamp":"2026-05-25 22:44:28"}
+{"level":"http","message":"POST /api/studios 400 57.253 ms","timestamp":"2026-05-25 22:44:28"}
+{"level":"warn","message":"body.email: Required","method":"POST","path":"/api/studios/367e2014-0b05-40cb-a89e-188133731e56/trainers","statusCode":400,"timestamp":"2026-05-25 22:45:23"}
+{"level":"http","message":"POST /api/studios/367e2014-0b05-40cb-a89e-188133731e56/trainers 400 49.484 ms","timestamp":"2026-05-25 22:45:23"}
+{"level":"warn","message":"Studio owner is already a member","method":"POST","path":"/api/studios/367e2014-0b05-40cb-a89e-188133731e56/trainers","statusCode":400,"timestamp":"2026-05-25 22:45:43"}
+{"level":"http","message":"POST /api/studios/367e2014-0b05-40cb-a89e-188133731e56/trainers 400 75.705 ms","timestamp":"2026-05-25 22:45:43"}
+{"level":"http","message":"POST /api/studios/367e2014-0b05-40cb-a89e-188133731e56/trainers 201 102.910 ms","timestamp":"2026-05-25 22:45:55"}
+{"level":"http","message":"GET /api/studios/367e2014-0b05-40cb-a89e-188133731e56/members 200 81.269 ms","timestamp":"2026-05-25 22:46:25"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 22:48:57"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 22:49:36"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 22:49:43"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 22:49:51"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 22:50:10"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 22:50:16"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 22:50:23"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 22:50:27"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 22:51:08"}
+{"level":"http","message":"DELETE /api/studios/367e2014-0b05-40cb-a89e-188133731e56/members/fc078c2e-c52d-4583-8e63-8e86bd636d50 200 104.338 ms","timestamp":"2026-05-25 23:01:13"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/367e2014-0b05-40cb-a89e-188133731e56","statusCode":401,"timestamp":"2026-05-25 23:02:17"}
+{"level":"http","message":"DELETE /api/studios/367e2014-0b05-40cb-a89e-188133731e56 401 1.593 ms","timestamp":"2026-05-25 23:02:17"}
+{"level":"http","message":"DELETE /api/studios/367e2014-0b05-40cb-a89e-188133731e56 200 76.236 ms","timestamp":"2026-05-25 23:02:31"}
+{"level":"http","message":"GET /api/health 200 3.692 ms","timestamp":"2026-05-25 23:06:31"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-05-25 23:06:31"}
+{"level":"http","message":"GET /api/unknown 404 8.977 ms","timestamp":"2026-05-25 23:06:31"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-05-25 23:06:31"}
+{"level":"http","message":"GET /api/auth/me 401 2.343 ms","timestamp":"2026-05-25 23:06:31"}
+{"level":"http","message":"GET /api/health 200 4.548 ms","timestamp":"2026-05-25 23:19:58"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-05-25 23:19:58"}
+{"level":"http","message":"GET /api/unknown 404 7.060 ms","timestamp":"2026-05-25 23:19:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-05-25 23:19:58"}
+{"level":"http","message":"GET /api/auth/me 401 2.709 ms","timestamp":"2026-05-25 23:19:58"}
+{"level":"http","message":"GET /api/health 200 5.433 ms","timestamp":"2026-05-25 23:25:20"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-05-25 23:25:20"}
+{"level":"http","message":"GET /api/unknown 404 6.351 ms","timestamp":"2026-05-25 23:25:20"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-05-25 23:25:20"}
+{"level":"http","message":"GET /api/auth/me 401 3.529 ms","timestamp":"2026-05-25 23:25:20"}
+{"level":"http","message":"GET /api/health 200 6.433 ms","timestamp":"2026-05-25 23:25:57"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-05-25 23:25:57"}
+{"level":"http","message":"GET /api/unknown 404 11.717 ms","timestamp":"2026-05-25 23:25:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-05-25 23:25:57"}
+{"level":"http","message":"GET /api/auth/me 401 4.809 ms","timestamp":"2026-05-25 23:25:57"}
+{"level":"http","message":"GET /api/health 200 4.836 ms","timestamp":"2026-05-25 23:30:25"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-05-25 23:30:25"}
+{"level":"http","message":"GET /api/unknown 404 7.025 ms","timestamp":"2026-05-25 23:30:25"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-05-25 23:30:25"}
+{"level":"http","message":"GET /api/auth/me 401 2.281 ms","timestamp":"2026-05-25 23:30:25"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-05-25 23:30:25"}
+{"level":"http","message":"POST /api/studios 401 5.001 ms","timestamp":"2026-05-25 23:30:25"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-05-25 23:30:25"}
+{"level":"http","message":"GET /api/studios/me 401 2.577 ms","timestamp":"2026-05-25 23:30:25"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-05-25 23:30:25"}
+{"level":"http","message":"GET /api/studios/00000000-0000-0000-0000-000000000001 401 3.652 ms","timestamp":"2026-05-25 23:30:25"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-05-25 23:30:25"}
+{"level":"http","message":"PATCH /api/studios/00000000-0000-0000-0000-000000000001 401 1.900 ms","timestamp":"2026-05-25 23:30:25"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-05-25 23:30:25"}
+{"level":"http","message":"DELETE /api/studios/00000000-0000-0000-0000-000000000001 401 1.535 ms","timestamp":"2026-05-25 23:30:25"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-05-25 23:30:25"}
+{"level":"http","message":"GET /api/studios/00000000-0000-0000-0000-000000000001/members 401 3.195 ms","timestamp":"2026-05-25 23:30:25"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-05-25 23:30:25"}
+{"level":"http","message":"POST /api/studios/00000000-0000-0000-0000-000000000001/trainers 401 3.462 ms","timestamp":"2026-05-25 23:30:25"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-05-25 23:30:25"}
+{"level":"http","message":"DELETE /api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002 401 4.093 ms","timestamp":"2026-05-25 23:30:25"}
+{"level":"http","message":"GET /api/health 200 3.015 ms","timestamp":"2026-05-25 23:31:48"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-05-25 23:31:48"}
+{"level":"http","message":"GET /api/unknown 404 6.077 ms","timestamp":"2026-05-25 23:31:48"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-05-25 23:31:48"}
+{"level":"http","message":"GET /api/auth/me 401 2.575 ms","timestamp":"2026-05-25 23:31:48"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-05-25 23:31:48"}
+{"level":"http","message":"POST /api/studios 401 5.181 ms","timestamp":"2026-05-25 23:31:48"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-05-25 23:31:48"}
+{"level":"http","message":"GET /api/studios/me 401 5.777 ms","timestamp":"2026-05-25 23:31:48"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-05-25 23:31:48"}
+{"level":"http","message":"GET /api/studios/00000000-0000-0000-0000-000000000001 401 3.384 ms","timestamp":"2026-05-25 23:31:48"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-05-25 23:31:48"}
+{"level":"http","message":"PATCH /api/studios/00000000-0000-0000-0000-000000000001 401 2.209 ms","timestamp":"2026-05-25 23:31:48"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-05-25 23:31:48"}
+{"level":"http","message":"DELETE /api/studios/00000000-0000-0000-0000-000000000001 401 1.540 ms","timestamp":"2026-05-25 23:31:48"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-05-25 23:31:48"}
+{"level":"http","message":"GET /api/studios/00000000-0000-0000-0000-000000000001/members 401 2.664 ms","timestamp":"2026-05-25 23:31:48"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-05-25 23:31:48"}
+{"level":"http","message":"POST /api/studios/00000000-0000-0000-0000-000000000001/trainers 401 2.835 ms","timestamp":"2026-05-25 23:31:48"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-05-25 23:31:48"}
+{"level":"http","message":"DELETE /api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002 401 5.686 ms","timestamp":"2026-05-25 23:31:48"}
+{"level":"http","message":"GET /api/health 200 5.218 ms","timestamp":"2026-05-25 23:32:12"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-05-25 23:32:12"}
+{"level":"http","message":"GET /api/unknown 404 3.321 ms","timestamp":"2026-05-25 23:32:12"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-05-25 23:32:12"}
+{"level":"http","message":"GET /api/auth/me 401 3.311 ms","timestamp":"2026-05-25 23:32:12"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-05-25 23:32:12"}
+{"level":"http","message":"POST /api/studios 401 1.415 ms","timestamp":"2026-05-25 23:32:12"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-05-25 23:32:12"}
+{"level":"http","message":"GET /api/studios/me 401 2.059 ms","timestamp":"2026-05-25 23:32:12"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-05-25 23:32:12"}
+{"level":"http","message":"GET /api/studios/00000000-0000-0000-0000-000000000001 401 2.488 ms","timestamp":"2026-05-25 23:32:12"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-05-25 23:32:12"}
+{"level":"http","message":"PATCH /api/studios/00000000-0000-0000-0000-000000000001 401 1.380 ms","timestamp":"2026-05-25 23:32:12"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-05-25 23:32:12"}
+{"level":"http","message":"DELETE /api/studios/00000000-0000-0000-0000-000000000001 401 1.092 ms","timestamp":"2026-05-25 23:32:12"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-05-25 23:32:12"}
+{"level":"http","message":"GET /api/studios/00000000-0000-0000-0000-000000000001/members 401 2.784 ms","timestamp":"2026-05-25 23:32:12"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-05-25 23:32:12"}
+{"level":"http","message":"POST /api/studios/00000000-0000-0000-0000-000000000001/trainers 401 1.549 ms","timestamp":"2026-05-25 23:32:12"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-05-25 23:32:12"}
+{"level":"http","message":"DELETE /api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002 401 1.335 ms","timestamp":"2026-05-25 23:32:12"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-25 23:36:56"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-05-25 23:38:13"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-05-25 23:38:13"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-05-25 23:38:13"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-05-25 23:38:13"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-05-25 23:38:13"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-05-25 23:38:13"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-05-25 23:38:13"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-05-25 23:38:13"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-05-25 23:38:13"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-05-25 23:38:13"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 11:41:15"}
+{"level":"warn","message":"Invalid or expired access token","method":"POST","path":"/api/studios/367e2014-0b05-40cb-a89e-188133731e56/trainers","statusCode":401,"timestamp":"2026-05-26 11:42:22"}
+{"level":"http","message":"POST /api/studios/367e2014-0b05-40cb-a89e-188133731e56/trainers 401 28.128 ms","timestamp":"2026-05-26 11:42:22"}
+{"level":"warn","message":"body.email: Required","method":"POST","path":"/api/studios/367e2014-0b05-40cb-a89e-188133731e56/trainers","statusCode":400,"timestamp":"2026-05-26 11:48:09"}
+{"level":"http","message":"POST /api/studios/367e2014-0b05-40cb-a89e-188133731e56/trainers 400 52.774 ms","timestamp":"2026-05-26 11:48:09"}
+{"level":"http","message":"POST /api/studios 201 112.514 ms","timestamp":"2026-05-26 11:48:53"}
+{"level":"warn","message":"params.studioId: Invalid studio id","method":"GET","path":"/api/studios/mine","statusCode":400,"timestamp":"2026-05-26 11:50:08"}
+{"level":"http","message":"GET /api/studios/mine 400 50.122 ms","timestamp":"2026-05-26 11:50:08"}
+{"level":"http","message":"GET /api/studios/me 200 65.349 ms","timestamp":"2026-05-26 11:51:05"}
+{"level":"warn","message":"Route not found: GET /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients","method":"GET","path":"/api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients","statusCode":404,"timestamp":"2026-05-26 11:53:34"}
+{"level":"http","message":"GET /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 404 1.341 ms","timestamp":"2026-05-26 11:53:34"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients","statusCode":401,"timestamp":"2026-05-26 11:53:40"}
+{"level":"http","message":"POST /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 401 1.704 ms","timestamp":"2026-05-26 11:53:40"}
+{"level":"http","message":"POST /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 201 89.413 ms","timestamp":"2026-05-26 11:54:04"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 11:57:27"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 11:57:47"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 11:58:06"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 11:58:30"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 11:58:35"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 11:58:41"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 11:59:07"}
+{"level":"http","message":"GET /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 200 91.248 ms","timestamp":"2026-05-26 12:00:03"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:03:05"}
+{"level":"http","message":"GET /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 200 90.710 ms","timestamp":"2026-05-26 12:03:09"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:04:15"}
+{"level":"http","message":"GET /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 200 88.031 ms","timestamp":"2026-05-26 12:04:32"}
+{"level":"http","message":"GET /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 200 56.089 ms","timestamp":"2026-05-26 12:04:33"}
+{"level":"http","message":"GET /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 200 57.540 ms","timestamp":"2026-05-26 12:04:33"}
+{"level":"http","message":"GET /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 200 54.010 ms","timestamp":"2026-05-26 12:04:34"}
+{"level":"http","message":"GET /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 200 56.879 ms","timestamp":"2026-05-26 12:04:34"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:05:13"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:05:20"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:05:35"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:05:47"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:05:51"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:06:10"}
+{"level":"http","message":"GET /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients/41fa5214-fb66-4406-b9ef-c6c5d3869b1f 200 93.532 ms","timestamp":"2026-05-26 12:07:52"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:08:44"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:09:56"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:10:01"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:10:11"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:10:19"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:10:45"}
+{"level":"http","message":"GET /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 200 96.771 ms","timestamp":"2026-05-26 12:11:41"}
+{"level":"warn","message":"Route not found: PATCH /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients","method":"PATCH","path":"/api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients","statusCode":404,"timestamp":"2026-05-26 12:11:55"}
+{"level":"http","message":"PATCH /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 404 1.536 ms","timestamp":"2026-05-26 12:11:55"}
+{"level":"http","message":"GET /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 200 63.371 ms","timestamp":"2026-05-26 12:12:05"}
+{"level":"http","message":"PATCH /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients/41fa5214-fb66-4406-b9ef-c6c5d3869b1f 200 78.499 ms","timestamp":"2026-05-26 12:12:21"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:13:22"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:13:39"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:13:58"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:14:21"}
+{"level":"http","message":"GET /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 200 92.918 ms","timestamp":"2026-05-26 12:15:12"}
+{"level":"http","message":"GET /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 200 57.975 ms","timestamp":"2026-05-26 12:15:16"}
+{"level":"warn","message":"Route not found: DELETE /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients","method":"DELETE","path":"/api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients","statusCode":404,"timestamp":"2026-05-26 12:15:24"}
+{"level":"http","message":"DELETE /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 404 1.304 ms","timestamp":"2026-05-26 12:15:24"}
+{"level":"http","message":"DELETE /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients/41fa5214-fb66-4406-b9ef-c6c5d3869b1f 200 95.399 ms","timestamp":"2026-05-26 12:15:48"}
+{"level":"http","message":"GET /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 200 57.130 ms","timestamp":"2026-05-26 12:15:51"}
+{"level":"http","message":"GET /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 200 58.030 ms","timestamp":"2026-05-26 12:15:53"}
+{"level":"http","message":"GET /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 200 56.508 ms","timestamp":"2026-05-26 12:15:54"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-05-26 12:27:30"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-05-26 12:27:30"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-05-26 12:27:30"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-05-26 12:27:30"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-05-26 12:27:30"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-05-26 12:27:30"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-05-26 12:27:30"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-05-26 12:27:30"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-05-26 12:27:30"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-05-26 12:27:30"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-05-26 12:27:30"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-05-26 12:27:30"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-05-26 12:27:30"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-05-26 12:27:30"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-05-26 12:27:30"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:28:52"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:29:09"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:29:35"}
+{"level":"http","message":"POST /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 201 150.006 ms","timestamp":"2026-05-26 12:31:57"}
+{"level":"http","message":"POST /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 201 89.866 ms","timestamp":"2026-05-26 12:32:20"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:34:23"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:34:47"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:34:54"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:35:21"}
+{"level":"http","message":"POST /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 201 131.526 ms","timestamp":"2026-05-26 12:36:11"}
+{"level":"http","message":"POST /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 201 95.477 ms","timestamp":"2026-05-26 12:36:15"}
+{"level":"http","message":"POST /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 201 78.976 ms","timestamp":"2026-05-26 12:36:15"}
+{"level":"http","message":"POST /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 201 89.250 ms","timestamp":"2026-05-26 12:36:16"}
+{"level":"http","message":"POST /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 201 75.759 ms","timestamp":"2026-05-26 12:36:16"}
+{"level":"http","message":"POST /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 201 83.781 ms","timestamp":"2026-05-26 12:36:17"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:41:56"}
+{"level":"warn","message":"Invalid or expired access token","method":"POST","path":"/api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients","statusCode":401,"timestamp":"2026-05-26 12:42:56"}
+{"level":"http","message":"POST /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 401 37.002 ms","timestamp":"2026-05-26 12:42:56"}
+{"level":"warn","message":"Invalid or expired access token","method":"POST","path":"/api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients","statusCode":401,"timestamp":"2026-05-26 12:43:00"}
+{"level":"http","message":"POST /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 401 19.694 ms","timestamp":"2026-05-26 12:43:00"}
+{"level":"warn","message":"Invalid or expired access token","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-05-26 12:44:36"}
+{"level":"http","message":"POST /api/studios 401 7.890 ms","timestamp":"2026-05-26 12:44:36"}
+{"level":"warn","message":"Invalid or expired access token","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-05-26 12:44:40"}
+{"level":"http","message":"POST /api/studios 401 8.356 ms","timestamp":"2026-05-26 12:44:40"}
+{"level":"warn","message":"Invalid or expired access token","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-05-26 12:44:48"}
+{"level":"http","message":"POST /api/studios 401 7.508 ms","timestamp":"2026-05-26 12:44:48"}
+{"level":"http","message":"POST /api/studios 201 122.907 ms","timestamp":"2026-05-26 12:45:14"}
+{"level":"warn","message":"Invalid or expired access token","method":"POST","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/clients","statusCode":401,"timestamp":"2026-05-26 12:45:35"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/clients 401 19.294 ms","timestamp":"2026-05-26 12:45:35"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/clients 201 109.265 ms","timestamp":"2026-05-26 12:45:47"}
+{"level":"error","message":"Failed to create client","method":"POST","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/clients","stack":"Error: Failed to create client\n    at createClient (D:\\fitstudio_pro\\backend\\src\\modules\\clients\\clients.service.ts:178:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async <anonymous> (D:\\fitstudio_pro\\backend\\src\\modules\\clients\\clients.controller.ts:9:20)","timestamp":"2026-05-26 12:46:08"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/clients 500 82.881 ms","timestamp":"2026-05-26 12:46:08"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:47:14"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 12:49:32"}
+{"level":"warn","message":"Invalid or expired access token","method":"GET","path":"/api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients","statusCode":401,"timestamp":"2026-05-26 12:49:38"}
+{"level":"http","message":"GET /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients 401 30.214 ms","timestamp":"2026-05-26 12:49:38"}
+{"level":"warn","message":"A client with this email already exists in this studio","method":"POST","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/clients","statusCode":409,"timestamp":"2026-05-26 12:49:45"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/clients 409 104.246 ms","timestamp":"2026-05-26 12:49:45"}
+{"level":"warn","message":"User already owns a studio","method":"POST","path":"/api/studios","statusCode":409,"timestamp":"2026-05-26 12:49:51"}
+{"level":"http","message":"POST /api/studios 409 71.779 ms","timestamp":"2026-05-26 12:49:51"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 13:00:35"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 13:02:12"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 13:02:55"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 13:05:45"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 13:07:05"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 13:07:18"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 13:08:32"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 13:08:50"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:02:47"}
+{"level":"warn","message":"Route not found: GET /api/exercises","method":"GET","path":"/api/exercises","statusCode":404,"timestamp":"2026-05-26 23:04:05"}
+{"level":"http","message":"GET /api/exercises 404 6.258 ms","timestamp":"2026-05-26 23:04:05"}
+{"level":"warn","message":"Route not found: GET /api/exercise","method":"GET","path":"/api/exercise","statusCode":404,"timestamp":"2026-05-26 23:04:10"}
+{"level":"http","message":"GET /api/exercise 404 1.003 ms","timestamp":"2026-05-26 23:04:10"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:04:36"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:04:49"}
+{"level":"warn","message":"Route not found: GET /api/exercise","method":"GET","path":"/api/exercise","statusCode":404,"timestamp":"2026-05-26 23:04:51"}
+{"level":"http","message":"GET /api/exercise 404 5.975 ms","timestamp":"2026-05-26 23:04:51"}
+{"level":"warn","message":"Route not found: GET /api/exercise","method":"GET","path":"/api/exercise","statusCode":404,"timestamp":"2026-05-26 23:04:52"}
+{"level":"http","message":"GET /api/exercise 404 1.750 ms","timestamp":"2026-05-26 23:04:52"}
+{"level":"warn","message":"Invalid or expired access token","method":"GET","path":"/api/exercises","statusCode":401,"timestamp":"2026-05-26 23:04:56"}
+{"level":"http","message":"GET /api/exercises 401 36.372 ms","timestamp":"2026-05-26 23:04:56"}
+{"level":"warn","message":"Invalid or expired access token","method":"GET","path":"/api/exercises","statusCode":401,"timestamp":"2026-05-26 23:04:57"}
+{"level":"http","message":"GET /api/exercises 401 8.739 ms","timestamp":"2026-05-26 23:04:57"}
+{"level":"http","message":"GET /api/exercises 200 111.578 ms","timestamp":"2026-05-26 23:05:33"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:11:21"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:11:36"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:12:33"}
+{"level":"warn","message":"You do not have access to this studio","method":"GET","path":"/api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients/41fa5214-fb66-4406-b9ef-c6c5d3869b1f","statusCode":403,"timestamp":"2026-05-26 23:13:04"}
+{"level":"http","message":"GET /api/studios/57785dcf-c8de-45c2-bb16-5af1b6046294/clients/41fa5214-fb66-4406-b9ef-c6c5d3869b1f 403 148.689 ms","timestamp":"2026-05-26 23:13:04"}
+{"level":"http","message":"GET /api/studios/me 200 84.114 ms","timestamp":"2026-05-26 23:13:20"}
+{"level":"warn","message":"Route not found: GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans","method":"GET","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans","statusCode":404,"timestamp":"2026-05-26 23:34:07"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans 404 1.933 ms","timestamp":"2026-05-26 23:34:07"}
+{"level":"warn","message":"body.clientId: Invalid client id","method":"POST","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans","statusCode":400,"timestamp":"2026-05-26 23:34:17"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans 400 71.029 ms","timestamp":"2026-05-26 23:34:17"}
+{"level":"warn","message":"Client not found","method":"GET","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/clients/41fa5214-fb66-4406-b9ef-c6c5d3869b1f","statusCode":404,"timestamp":"2026-05-26 23:35:03"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/clients/41fa5214-fb66-4406-b9ef-c6c5d3869b1f 404 107.823 ms","timestamp":"2026-05-26 23:35:03"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/clients 200 112.197 ms","timestamp":"2026-05-26 23:35:17"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans 201 127.575 ms","timestamp":"2026-05-26 23:35:43"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:37:51"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:38:07"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:38:26"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:38:45"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:38:47"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:39:03"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:39:24"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6 200 140.071 ms","timestamp":"2026-05-26 23:40:45"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:43:20"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:44:28"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:44:46"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:44:54"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:45:16"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:45:29"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:45:34"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:46:05"}
+{"level":"warn","message":"params.planId: Invalid workout plan id","method":"POST","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/2729ac6-920b-43c9-a810-a0ebf5b033a6/days","statusCode":400,"timestamp":"2026-05-26 23:47:55"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/2729ac6-920b-43c9-a810-a0ebf5b033a6/days 400 87.166 ms","timestamp":"2026-05-26 23:47:55"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6 200 108.387 ms","timestamp":"2026-05-26 23:48:28"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days 201 134.544 ms","timestamp":"2026-05-26 23:48:38"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days 201 117.536 ms","timestamp":"2026-05-26 23:48:56"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days 201 102.189 ms","timestamp":"2026-05-26 23:49:00"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days 201 106.503 ms","timestamp":"2026-05-26 23:49:05"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days 201 100.935 ms","timestamp":"2026-05-26 23:49:10"}
+{"level":"warn","message":"body.dayNumber: A workout plan can only have days 1 to 7","method":"POST","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days","statusCode":400,"timestamp":"2026-05-26 23:49:14"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days 400 65.272 ms","timestamp":"2026-05-26 23:49:14"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:51:33"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:52:03"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:52:13"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:52:49"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:52:58"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:53:04"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-05-26 23:53:22"}
+{"level":"warn","message":"Route not found: POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/005f8b7e-9acf-4c89-b3be-b1b8b345a43f","method":"POST","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/005f8b7e-9acf-4c89-b3be-b1b8b345a43f","statusCode":404,"timestamp":"2026-05-26 23:55:10"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/005f8b7e-9acf-4c89-b3be-b1b8b345a43f 404 5.365 ms","timestamp":"2026-05-26 23:55:10"}
+{"level":"warn","message":"Route not found: POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/005f8b7e-9acf-4c89-b3be-b1b8b345a43f","method":"POST","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/005f8b7e-9acf-4c89-b3be-b1b8b345a43f","statusCode":404,"timestamp":"2026-05-26 23:55:33"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/005f8b7e-9acf-4c89-b3be-b1b8b345a43f 404 2.067 ms","timestamp":"2026-05-26 23:55:33"}
+{"level":"warn","message":"body.exerciseId: Invalid exercise id","method":"POST","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/005f8b7e-9acf-4c89-b3be-b1b8b345a43f/items","statusCode":400,"timestamp":"2026-05-26 23:56:20"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/005f8b7e-9acf-4c89-b3be-b1b8b345a43f/items 400 85.929 ms","timestamp":"2026-05-26 23:56:20"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/005f8b7e-9acf-4c89-b3be-b1b8b345a43f/items 201 138.594 ms","timestamp":"2026-05-26 23:56:51"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-06-01 11:12:33"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-06-01 11:12:45"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-06-01 11:13:23"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-06-01 11:13:28"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-06-01 11:13:30"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-06-01 11:14:16"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-06-01 11:14:30"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-06-01 11:14:42"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-06-01 11:16:29"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-06-01 11:17:55"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-06-01 11:18:24"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-06-01 11:19:35"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/005f8b7e-9acf-4c89-b3be-b1b8b345a43f/items 201 185.844 ms","timestamp":"2026-06-01 11:21:17"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-06-01 11:22:29"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans 200 103.741 ms","timestamp":"2026-06-01 11:27:32"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans","statusCode":401,"timestamp":"2026-06-01 11:32:37"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-06-01 11:32:37"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-06-01 11:32:38"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans","statusCode":401,"timestamp":"2026-06-01 11:32:38"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102","statusCode":401,"timestamp":"2026-06-01 11:32:38"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-06-01 11:32:38"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102","statusCode":401,"timestamp":"2026-06-01 11:32:38"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-06-01 11:32:38"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102","statusCode":401,"timestamp":"2026-06-01 11:32:38"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:32:38"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days","statusCode":401,"timestamp":"2026-06-01 11:32:38"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:32:38"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days/00000000-0000-0000-0000-000000000103","statusCode":401,"timestamp":"2026-06-01 11:32:38"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:32:38"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days/00000000-0000-0000-0000-000000000103","statusCode":401,"timestamp":"2026-06-01 11:32:38"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-06-01 11:32:38"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days/00000000-0000-0000-0000-000000000103/items","statusCode":401,"timestamp":"2026-06-01 11:32:38"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-06-01 11:32:38"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days/00000000-0000-0000-0000-000000000103/items/00000000-0000-0000-0000-000000000104","statusCode":401,"timestamp":"2026-06-01 11:32:38"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-06-01 11:32:38"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days/00000000-0000-0000-0000-000000000103/items/00000000-0000-0000-0000-000000000104","statusCode":401,"timestamp":"2026-06-01 11:32:38"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-01 11:32:38"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-01 11:32:38"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:32:38"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:32:38"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:32:38"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days/00000000-0000-0000-0000-000000000103","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days/00000000-0000-0000-0000-000000000103","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days/00000000-0000-0000-0000-000000000103/items","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days/00000000-0000-0000-0000-000000000103/items/00000000-0000-0000-0000-000000000104","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days/00000000-0000-0000-0000-000000000103/items/00000000-0000-0000-0000-000000000104","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:36:33"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days/00000000-0000-0000-0000-000000000103","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days/00000000-0000-0000-0000-000000000103","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days/00000000-0000-0000-0000-000000000103/items","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days/00000000-0000-0000-0000-000000000103/items/00000000-0000-0000-0000-000000000104","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days/00000000-0000-0000-0000-000000000103/items/00000000-0000-0000-0000-000000000104","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:37:58"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days/00000000-0000-0000-0000-000000000103","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days/00000000-0000-0000-0000-000000000103","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days/00000000-0000-0000-0000-000000000103/items","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days/00000000-0000-0000-0000-000000000103/items/00000000-0000-0000-0000-000000000104","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days/00000000-0000-0000-0000-000000000103/items/00000000-0000-0000-0000-000000000104","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:38:08"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-06-01 11:41:40"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-06-01 11:41:41"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-06-01 11:41:41"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-06-01 11:41:41"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:41:41"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:41:41"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:41:41"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-06-01 11:41:41"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-06-01 11:41:41"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-06-01 11:41:41"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-01 11:41:41"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-01 11:41:41"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:41:41"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:41:41"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:41:41"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-06-01 11:42:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-06-01 11:42:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-06-01 11:42:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-06-01 11:42:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:42:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:42:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:42:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-06-01 11:42:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-06-01 11:42:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-06-01 11:42:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-01 11:42:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-01 11:42:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:42:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:42:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:42:05"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-06-01 11:42:54"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-06-01 11:42:54"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-06-01 11:42:54"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-06-01 11:42:54"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:42:54"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:42:54"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:42:54"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-06-01 11:42:54"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-06-01 11:42:54"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-06-01 11:42:54"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-01 11:42:54"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-01 11:42:54"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:42:54"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:42:54"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:42:54"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-06-01 11:42:59"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-06-01 11:42:59"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-06-01 11:42:59"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-06-01 11:42:59"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:42:59"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:42:59"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:42:59"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-06-01 11:42:59"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-06-01 11:42:59"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-06-01 11:42:59"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-01 11:42:59"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-01 11:42:59"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:42:59"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:42:59"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:42:59"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-06-01 11:44:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-06-01 11:44:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-06-01 11:44:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-06-01 11:44:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:44:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:44:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:44:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-06-01 11:44:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-06-01 11:44:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-06-01 11:44:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-01 11:44:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-01 11:44:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:44:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:44:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:44:57"}
+{"level":"warn","message":"A workout day with this dayNumber already exists in this plan","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days/00000000-0000-0000-0000-000000000103","statusCode":409,"timestamp":"2026-06-01 11:44:57"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-06-01 11:45:11"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-06-01 11:45:11"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-06-01 11:45:11"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-06-01 11:45:11"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:45:11"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:45:11"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:45:11"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-06-01 11:45:11"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-06-01 11:45:11"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-06-01 11:45:11"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-01 11:45:11"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-01 11:45:11"}
+{"level":"warn","message":"A workout day with this dayNumber already exists in this plan","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000101/workout-plans/00000000-0000-0000-0000-000000000102/days/00000000-0000-0000-0000-000000000103","statusCode":409,"timestamp":"2026-06-01 11:45:11"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:45:11"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:45:11"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:45:11"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-06-01 11:45:40"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-06-01 11:45:40"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-06-01 11:45:40"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-06-01 11:45:40"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:45:40"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:45:40"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:45:41"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-06-01 11:45:41"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-06-01 11:45:41"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-06-01 11:45:41"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-01 11:45:41"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-01 11:45:41"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:45:41"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:45:41"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:45:41"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-06-01 11:45:46"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-06-01 11:45:46"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-06-01 11:45:46"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-06-01 11:45:46"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:45:46"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:45:46"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-01 11:45:46"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-06-01 11:45:46"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-06-01 11:45:46"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-06-01 11:45:46"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-01 11:45:46"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-01 11:45:46"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:45:46"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:45:46"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-01 11:45:46"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-06-04 11:32:55"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-06-04 11:32:55"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-06-04 11:32:55"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-06-04 11:32:55"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-04 11:32:55"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-04 11:32:55"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-04 11:32:55"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-06-04 11:32:55"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-06-04 11:32:55"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-06-04 11:32:55"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-04 11:32:55"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-04 11:32:55"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-04 11:32:55"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-04 11:32:55"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-04 11:32:55"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-06-04 11:33:07"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-06-04 11:33:07"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-06-04 11:33:07"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-06-04 11:33:07"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-04 11:33:07"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-04 11:33:07"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-04 11:33:07"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-06-04 11:33:07"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-06-04 11:33:07"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-06-04 11:33:07"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-04 11:33:07"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-04 11:33:07"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-04 11:33:07"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-04 11:33:07"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-04 11:33:07"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-06-04 11:33:56"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-06-04 11:33:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-06-04 11:33:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-06-04 11:33:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-04 11:33:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-04 11:33:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-04 11:33:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-06-04 11:33:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-06-04 11:33:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-06-04 11:33:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-04 11:33:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-04 11:33:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-04 11:33:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-04 11:33:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-04 11:33:57"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-06-04 11:34:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-06-04 11:34:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-06-04 11:34:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-06-04 11:34:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-04 11:34:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-04 11:34:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-04 11:34:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-06-04 11:34:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-06-04 11:34:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-06-04 11:34:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-04 11:34:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-04 11:34:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-04 11:34:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-04 11:34:05"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-04 11:34:05"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-06-06 12:29:13"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-06-06 12:29:13"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-06-06 12:29:13"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-06-06 12:29:13"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-06 12:29:13"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-06 12:29:14"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-06 12:29:14"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-06-06 12:29:14"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-06-06 12:29:14"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-06-06 12:29:14"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-06 12:29:14"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-06 12:29:14"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-06 12:29:14"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-06 12:29:14"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-06 12:29:14"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-06-06 12:29:24"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-06-06 12:29:24"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-06-06 12:29:24"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-06-06 12:29:24"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-06 12:29:24"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-06 12:29:24"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-06 12:29:24"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-06-06 12:29:24"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-06-06 12:29:24"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-06-06 12:29:24"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-06 12:29:24"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-06 12:29:24"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-06 12:29:24"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-06 12:29:24"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-06 12:29:24"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-06-06 12:45:54"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6 200 160.760 ms","timestamp":"2026-06-06 12:45:57"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans 200 71.400 ms","timestamp":"2026-06-06 12:46:08"}
+{"level":"warn","message":"Invalid or expired access token","method":"GET","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/clients","statusCode":401,"timestamp":"2026-06-06 12:48:15"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/clients 401 10.924 ms","timestamp":"2026-06-06 12:48:15"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/clients 200 80.608 ms","timestamp":"2026-06-06 12:48:21"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/clients 200 95.657 ms","timestamp":"2026-06-06 12:48:47"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans 200 79.375 ms","timestamp":"2026-06-06 12:51:02"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6 200 65.347 ms","timestamp":"2026-06-06 12:51:31"}
+{"level":"error","message":"Internal server error","method":"PATCH","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6","stack":"SyntaxError: Unexpected token '\"', \"\"{\\n      \"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (D:\\fitstudio_pro\\node_modules\\body-parser\\lib\\types\\json.js:165:10)\n    at parse (D:\\fitstudio_pro\\node_modules\\body-parser\\lib\\types\\json.js:86:15)\n    at D:\\fitstudio_pro\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (D:\\fitstudio_pro\\node_modules\\raw-body\\index.js:238:16)\n    at done (D:\\fitstudio_pro\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (D:\\fitstudio_pro\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)","timestamp":"2026-06-06 12:52:19"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-06-06 22:46:39"}
+{"level":"warn","message":"Invalid or expired access token","method":"GET","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6","statusCode":401,"timestamp":"2026-06-06 22:47:03"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6 401 53.003 ms","timestamp":"2026-06-06 22:47:03"}
+{"level":"warn","message":"Invalid or expired access token","method":"GET","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6","statusCode":401,"timestamp":"2026-06-06 22:47:39"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6 401 3.547 ms","timestamp":"2026-06-06 22:47:39"}
+{"level":"error","message":"Internal server error","method":"PATCH","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6","stack":"SyntaxError: Unexpected token '\"', \"\"{\\n      \"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (D:\\fitstudio_pro\\node_modules\\body-parser\\lib\\types\\json.js:165:10)\n    at parse (D:\\fitstudio_pro\\node_modules\\body-parser\\lib\\types\\json.js:86:15)\n    at D:\\fitstudio_pro\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (D:\\fitstudio_pro\\node_modules\\raw-body\\index.js:238:16)\n    at done (D:\\fitstudio_pro\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (D:\\fitstudio_pro\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)","timestamp":"2026-06-06 22:50:24"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-06-06 22:51:24"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-06-06 23:11:34"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-06-06 23:11:35"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-06-06 23:11:35"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-06-06 23:11:35"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-06 23:11:35"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-06 23:11:35"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-06 23:11:35"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-06-06 23:11:35"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-06-06 23:11:35"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-06-06 23:11:35"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-06 23:11:35"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-06 23:11:35"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-06 23:11:35"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-06 23:11:35"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-06 23:11:35"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-06-06 23:26:55"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6 200 128.221 ms","timestamp":"2026-06-06 23:27:38"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6 200 83.803 ms","timestamp":"2026-06-06 23:28:30"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6 200 63.428 ms","timestamp":"2026-06-06 23:28:31"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6 200 62.251 ms","timestamp":"2026-06-06 23:28:31"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6 200 60.232 ms","timestamp":"2026-06-06 23:28:31"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6 200 57.251 ms","timestamp":"2026-06-06 23:28:31"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6 200 69.436 ms","timestamp":"2026-06-06 23:28:31"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6 200 58.021 ms","timestamp":"2026-06-06 23:28:31"}
+{"level":"error","message":"Internal server error","method":"PATCH","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6","stack":"SyntaxError: Unexpected token '\"', \"\"{\\n      \"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (D:\\fitstudio_pro\\node_modules\\body-parser\\lib\\types\\json.js:165:10)\n    at parse (D:\\fitstudio_pro\\node_modules\\body-parser\\lib\\types\\json.js:86:15)\n    at D:\\fitstudio_pro\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (D:\\fitstudio_pro\\node_modules\\raw-body\\index.js:238:16)\n    at done (D:\\fitstudio_pro\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (D:\\fitstudio_pro\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)","timestamp":"2026-06-06 23:29:26"}
+{"level":"error","message":"Internal server error","method":"PATCH","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6","stack":"SyntaxError: Unexpected token '\"', \"\"{\\n      \"... is not valid JSON\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (D:\\fitstudio_pro\\node_modules\\body-parser\\lib\\types\\json.js:165:10)\n    at parse (D:\\fitstudio_pro\\node_modules\\body-parser\\lib\\types\\json.js:86:15)\n    at D:\\fitstudio_pro\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (D:\\fitstudio_pro\\node_modules\\raw-body\\index.js:238:16)\n    at done (D:\\fitstudio_pro\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (D:\\fitstudio_pro\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)","timestamp":"2026-06-06 23:29:30"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans 200 82.396 ms","timestamp":"2026-06-06 23:31:28"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans","statusCode":401,"timestamp":"2026-06-06 23:31:36"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans 401 1.569 ms","timestamp":"2026-06-06 23:31:36"}
+{"level":"warn","message":"Route not found: GET /favicon.ico","method":"GET","path":"/favicon.ico","statusCode":404,"timestamp":"2026-06-06 23:31:36"}
+{"level":"http","message":"GET /favicon.ico 404 1.278 ms","timestamp":"2026-06-06 23:31:36"}
+{"level":"warn","message":"Client not found in this studio","method":"POST","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans","statusCode":404,"timestamp":"2026-06-06 23:32:35"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans 404 75.242 ms","timestamp":"2026-06-06 23:32:35"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans 201 94.919 ms","timestamp":"2026-06-06 23:33:02"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6 200 63.835 ms","timestamp":"2026-06-06 23:33:22"}
+{"level":"http","message":"PATCH /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6 200 86.740 ms","timestamp":"2026-06-06 23:33:57"}
+{"level":"warn","message":"A workout day with this dayNumber already exists in this plan","method":"POST","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days","statusCode":409,"timestamp":"2026-06-06 23:34:40"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days 409 86.376 ms","timestamp":"2026-06-06 23:34:40"}
+{"level":"warn","message":"A workout day with this dayNumber already exists in this plan","method":"POST","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days","statusCode":409,"timestamp":"2026-06-06 23:34:51"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days 409 71.364 ms","timestamp":"2026-06-06 23:34:51"}
+{"level":"warn","message":"A workout day with this dayNumber already exists in this plan","method":"POST","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days","statusCode":409,"timestamp":"2026-06-06 23:34:55"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days 409 70.012 ms","timestamp":"2026-06-06 23:34:55"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days 201 82.680 ms","timestamp":"2026-06-06 23:34:59"}
+{"level":"warn","message":"A workout day with this dayNumber already exists in this plan","method":"PATCH","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa","statusCode":409,"timestamp":"2026-06-06 23:35:51"}
+{"level":"http","message":"PATCH /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa 409 86.227 ms","timestamp":"2026-06-06 23:35:51"}
+{"level":"error","message":"Failed to update workout day","method":"PATCH","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa","stack":"Error: Failed to update workout day\n    at updateWorkoutDay (D:\\fitstudio_pro\\backend\\src\\modules\\workout\\workouts.service.ts:558:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async <anonymous> (D:\\fitstudio_pro\\backend\\src\\modules\\workout\\workouts.controller.ts:129:24)","timestamp":"2026-06-06 23:36:05"}
+{"level":"http","message":"PATCH /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa 500 78.571 ms","timestamp":"2026-06-06 23:36:05"}
+{"level":"error","message":"Failed to update workout day","method":"PATCH","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa","stack":"Error: Failed to update workout day\n    at updateWorkoutDay (D:\\fitstudio_pro\\backend\\src\\modules\\workout\\workouts.service.ts:558:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async <anonymous> (D:\\fitstudio_pro\\backend\\src\\modules\\workout\\workouts.controller.ts:129:24)","timestamp":"2026-06-06 23:36:13"}
+{"level":"http","message":"PATCH /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa 500 71.885 ms","timestamp":"2026-06-06 23:36:13"}
+{"level":"warn","message":"A workout day with this dayNumber already exists in this plan","method":"PATCH","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa","statusCode":409,"timestamp":"2026-06-06 23:36:34"}
+{"level":"http","message":"PATCH /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa 409 67.569 ms","timestamp":"2026-06-06 23:36:34"}
+{"level":"warn","message":"A workout day with this dayNumber already exists in this plan","method":"PATCH","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa","statusCode":409,"timestamp":"2026-06-06 23:36:38"}
+{"level":"http","message":"PATCH /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa 409 109.461 ms","timestamp":"2026-06-06 23:36:38"}
+{"level":"warn","message":"A workout day with this dayNumber already exists in this plan","method":"PATCH","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa","statusCode":409,"timestamp":"2026-06-06 23:36:43"}
+{"level":"http","message":"PATCH /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa 409 80.398 ms","timestamp":"2026-06-06 23:36:43"}
+{"level":"error","message":"Failed to update workout day","method":"PATCH","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa","stack":"Error: Failed to update workout day\n    at updateWorkoutDay (D:\\fitstudio_pro\\backend\\src\\modules\\workout\\workouts.service.ts:558:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async <anonymous> (D:\\fitstudio_pro\\backend\\src\\modules\\workout\\workouts.controller.ts:129:24)","timestamp":"2026-06-06 23:36:46"}
+{"level":"http","message":"PATCH /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa 500 77.864 ms","timestamp":"2026-06-06 23:36:46"}
+{"level":"warn","message":"body.dayNumber: Number must be less than or equal to 7","method":"PATCH","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa","statusCode":400,"timestamp":"2026-06-06 23:36:49"}
+{"level":"http","message":"PATCH /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa 400 51.105 ms","timestamp":"2026-06-06 23:36:49"}
+{"level":"warn","message":"A workout day with this dayNumber already exists in this plan","method":"PATCH","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa","statusCode":409,"timestamp":"2026-06-06 23:37:00"}
+{"level":"http","message":"PATCH /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa 409 69.110 ms","timestamp":"2026-06-06 23:37:00"}
+{"level":"error","message":"Failed to update workout day","method":"PATCH","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa","stack":"Error: Failed to update workout day\n    at updateWorkoutDay (D:\\fitstudio_pro\\backend\\src\\modules\\workout\\workouts.service.ts:558:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async <anonymous> (D:\\fitstudio_pro\\backend\\src\\modules\\workout\\workouts.controller.ts:129:24)","timestamp":"2026-06-06 23:37:58"}
+{"level":"http","message":"PATCH /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa 500 93.959 ms","timestamp":"2026-06-06 23:37:58"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-06-06 23:38:53"}
+{"level":"http","message":"PATCH /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa 200 139.698 ms","timestamp":"2026-06-06 23:39:04"}
+{"level":"warn","message":"A workout day with this dayNumber already exists in this plan","method":"PATCH","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa","statusCode":409,"timestamp":"2026-06-06 23:39:13"}
+{"level":"http","message":"PATCH /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa 409 129.214 ms","timestamp":"2026-06-06 23:39:13"}
+{"level":"http","message":"PATCH /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa 200 95.480 ms","timestamp":"2026-06-06 23:39:18"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-06-06 23:39:23"}
+{"level":"http","message":"DELETE /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/ee6231f6-8d24-40f9-b3cf-826ceed449fa 200 116.044 ms","timestamp":"2026-06-06 23:40:09"}
+{"level":"warn","message":"Route not found: GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/005f8b7e-9acf-4c89-b3be-b1b8b345a43f/items","method":"GET","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/005f8b7e-9acf-4c89-b3be-b1b8b345a43f/items","statusCode":404,"timestamp":"2026-06-06 23:41:16"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/005f8b7e-9acf-4c89-b3be-b1b8b345a43f/items 404 1.772 ms","timestamp":"2026-06-06 23:41:16"}
+{"level":"warn","message":"Route not found: GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/005f8b7e-9acf-4c89-b3be-b1b8b345a43f/items","method":"GET","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/005f8b7e-9acf-4c89-b3be-b1b8b345a43f/items","statusCode":404,"timestamp":"2026-06-06 23:41:43"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/005f8b7e-9acf-4c89-b3be-b1b8b345a43f/items 404 1.792 ms","timestamp":"2026-06-06 23:41:43"}
+{"level":"warn","message":"Exercise not found","method":"POST","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/005f8b7e-9acf-4c89-b3be-b1b8b345a43f/items","statusCode":404,"timestamp":"2026-06-06 23:41:58"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/005f8b7e-9acf-4c89-b3be-b1b8b345a43f/items 404 82.810 ms","timestamp":"2026-06-06 23:41:58"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/005f8b7e-9acf-4c89-b3be-b1b8b345a43f/items 201 96.520 ms","timestamp":"2026-06-06 23:42:27"}
+{"level":"http","message":"PATCH /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/005f8b7e-9acf-4c89-b3be-b1b8b345a43f/items/d9596f1a-3817-4aa1-8ca2-93a60995f6d7 200 106.380 ms","timestamp":"2026-06-06 23:43:03"}
+{"level":"http","message":"DELETE /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/workout-plans/12729ac6-920b-43c9-a810-a0ebf5b033a6/days/005f8b7e-9acf-4c89-b3be-b1b8b345a43f/items/d9596f1a-3817-4aa1-8ca2-93a60995f6d7 200 74.179 ms","timestamp":"2026-06-06 23:43:10"}
+{"level":"http","message":"POST /api/clients/f6e35644-3118-411f-80f6-1004fd018251/workout-logs 201 107.873 ms","timestamp":"2026-06-06 23:44:24"}
+{"level":"http","message":"GET /api/clients/f6e35644-3118-411f-80f6-1004fd018251/workout-logs 200 69.549 ms","timestamp":"2026-06-06 23:44:37"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-06-07 10:17:20"}
+{"level":"warn","message":"Route not found: GET /studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/sessions","method":"GET","path":"/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/sessions","statusCode":404,"timestamp":"2026-06-07 10:20:24"}
+{"level":"http","message":"GET /studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/sessions 404 2.862 ms","timestamp":"2026-06-07 10:20:24"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/sessions 200 101.247 ms","timestamp":"2026-06-07 10:20:43"}
+{"level":"http","message":"POST /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/sessions 201 101.006 ms","timestamp":"2026-06-07 10:21:10"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/sessions 200 66.677 ms","timestamp":"2026-06-07 10:21:34"}
+{"level":"http","message":"GET /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/sessions 200 62.996 ms","timestamp":"2026-06-07 10:21:59"}
+{"level":"warn","message":"Route not found: PATCH /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/sessions","method":"PATCH","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/sessions","statusCode":404,"timestamp":"2026-06-07 10:22:10"}
+{"level":"http","message":"PATCH /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/sessions 404 1.443 ms","timestamp":"2026-06-07 10:22:10"}
+{"level":"warn","message":"Route not found: PATCH /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/status","method":"PATCH","path":"/api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/status","statusCode":404,"timestamp":"2026-06-07 10:22:23"}
+{"level":"http","message":"PATCH /api/studios/fd001f92-8907-498b-a3e3-2c5a8c71f2d2/status 404 0.859 ms","timestamp":"2026-06-07 10:22:23"}
+{"level":"warn","message":"body.status: status must be one of: completed, cancelled, no_show","method":"PATCH","path":"/api/sessions/048b3318-2b9b-4874-9c2c-f19cbe143da1/status","statusCode":400,"timestamp":"2026-06-07 10:22:53"}
+{"level":"http","message":"PATCH /api/sessions/048b3318-2b9b-4874-9c2c-f19cbe143da1/status 400 50.829 ms","timestamp":"2026-06-07 10:22:53"}
+{"level":"http","message":"PATCH /api/sessions/048b3318-2b9b-4874-9c2c-f19cbe143da1/status 200 216.277 ms","timestamp":"2026-06-07 10:23:02"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-06-07 10:27:52"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-06-07 10:28:00"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-06-07 10:29:20"}
+{"level":"info","message":"Server running on http://localhost:4000","timestamp":"2026-06-07 10:29:23"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-06-07 10:29:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-06-07 10:29:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-06-07 10:29:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-06-07 10:29:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-07 10:29:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-07 10:29:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-07 10:29:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-06-07 10:29:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-06-07 10:29:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-06-07 10:29:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-07 10:29:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-07 10:29:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-07 10:29:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-07 10:29:57"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-07 10:29:57"}
+{"level":"warn","message":"Route not found: GET /api/unknown","method":"GET","path":"/api/unknown","statusCode":404,"timestamp":"2026-06-07 10:30:18"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/auth/me","statusCode":401,"timestamp":"2026-06-07 10:30:18"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios","statusCode":401,"timestamp":"2026-06-07 10:30:18"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/me","statusCode":401,"timestamp":"2026-06-07 10:30:18"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-07 10:30:18"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-07 10:30:18"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001","statusCode":401,"timestamp":"2026-06-07 10:30:18"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/members","statusCode":401,"timestamp":"2026-06-07 10:30:18"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/trainers","statusCode":401,"timestamp":"2026-06-07 10:30:18"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/members/00000000-0000-0000-0000-000000000002","statusCode":401,"timestamp":"2026-06-07 10:30:18"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"POST","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-07 10:30:18"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients","statusCode":401,"timestamp":"2026-06-07 10:30:18"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"GET","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-07 10:30:18"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"PATCH","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-07 10:30:18"}
+{"level":"warn","message":"Missing or invalid authorization header","method":"DELETE","path":"/api/studios/00000000-0000-0000-0000-000000000001/clients/00000000-0000-0000-0000-000000000003","statusCode":401,"timestamp":"2026-06-07 10:30:18"}
