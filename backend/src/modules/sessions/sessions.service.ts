@@ -1,5 +1,6 @@
 import { supabaseAdmin } from '../../lib/supabase.js';
 import { ApiError } from '../../utils/ApiError.js';
+import { logger } from '../../lib/logger.js';
 import type {
   CreateSessionInput,
   ListSessionsQuery,
@@ -59,7 +60,7 @@ const getStudioStaffMembershipOrThrow = async (
 const getClientInStudioOrThrow = async (clientId: string, studioId: string) => {
   const { data: client, error } = await supabaseAdmin
     .from('clients')
-    .select('id, studio_id, full_name')
+    .select('id, studio_id, full_name, user_id')
     .eq('id', clientId)
     .eq('studio_id', studioId)
     .maybeSingle();
@@ -146,7 +147,7 @@ export const createSession = async (
 ) => {
   await getStudioStaffMembershipOrThrow(requesterId, studioId);
 
-  await getClientInStudioOrThrow(input.clientId, studioId);
+  const client = await getClientInStudioOrThrow(input.clientId, studioId);
 
   await getTrainerInStudioOrThrow(input.trainerId, studioId);
 
@@ -176,7 +177,57 @@ export const createSession = async (
     throw new ApiError(500, 'Failed to create session');
   }
 
+  await enqueueSessionReminders(session, client.user_id);
+
   return session;
+};
+
+const REMINDER_LEAD_TIME_MS = 60 * 60 * 1000;
+
+const enqueueSessionReminders = async (
+  session: { id: string; trainer_id: string; client_id: string; start_time: string },
+  clientUserId: string | null,
+) => {
+  const scheduledFor = new Date(
+    new Date(session.start_time).getTime() - REMINDER_LEAD_TIME_MS,
+  ).toISOString();
+
+  const baseMetadata = {
+    sessionId: session.id,
+    clientId: session.client_id,
+    trainerId: session.trainer_id,
+    startTime: session.start_time,
+  };
+
+  const reminderJobs = [
+    {
+      user_id: session.trainer_id,
+      type: 'session_reminder',
+      scheduled_for: scheduledFor,
+      status: 'pending',
+      metadata: { ...baseMetadata, recipientRole: 'trainer' },
+    },
+    ...(clientUserId
+      ? [
+          {
+            user_id: clientUserId,
+            type: 'session_reminder',
+            scheduled_for: scheduledFor,
+            status: 'pending',
+            metadata: { ...baseMetadata, recipientRole: 'client' },
+          },
+        ]
+      : []),
+  ];
+
+  const { error } = await supabaseAdmin.from('reminder_jobs').insert(reminderJobs);
+
+  if (error) {
+    logger.warn('Failed to enqueue session reminder jobs', {
+      sessionId: session.id,
+      message: error.message,
+    });
+  }
 };
 
 export const listSessions = async (

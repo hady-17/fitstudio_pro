@@ -864,6 +864,61 @@ Deliverable:
 
 ---
 
+### Phase 8.5 - Notifications and Reminders
+
+Goal:
+
+Close the gap between the project brief (which calls for notifications, scheduled
+reminders, and AI summaries) and the phased plan above, which jumped straight from
+analytics to the frontend. The `notifications`, `reminder_jobs`, and `ai_summaries`
+tables already exist in the database and the `worker/` workspace is already
+scaffolded with BullMQ and Redis — this phase wires them together before the
+frontend is built, so the dashboard has real notification data to show.
+
+Tasks:
+
+- Notifications API module: `GET /api/notifications`, `PATCH /api/notifications/:notificationId/read`
+- BullMQ queue infrastructure (`reminders`, `weekly-summaries`, `emails` queues) backed by Redis
+- `reminder_jobs` rows created for both client and trainer when a session is booked
+- Worker-side repeatable scheduler that polls `reminder_jobs` for due jobs, creates
+  `notifications` rows, and marks jobs `sent`/`failed`
+- Email delivery and AI weekly summaries deferred (env vars and tables exist, no
+  provider chosen yet — stub-free, left for a later pass)
+
+Deliverable:
+
+- Users receive in-app notifications and session reminders are generated automatically
+
+---
+
+### Phase 8.6 - Email Delivery and AI Weekly Summaries (PENDING)
+
+Goal:
+
+Phase 8.5 shipped in-app notifications only — email delivery and AI-generated
+weekly summaries were explicitly deferred because no provider had been chosen.
+This phase closes that gap: pick an email provider (e.g. Resend, Postmark,
+SendGrid) and an AI provider/model, then wire them into the existing
+`emails` / `weekly-summaries` BullMQ queues and `ai_summaries` table so the
+full notification loop (in-app + email + AI summary) can be tested end-to-end.
+
+Tasks:
+
+- Choose and integrate an email provider using the existing `EMAIL_API_KEY` /
+  `EMAIL_FROM` env vars; add an `emails` queue processor in the worker that sends
+  the actual email for `session_reminder` (and other) notification types
+- Choose and integrate an AI provider using the existing `AI_API_KEY` / `AI_MODEL`
+  env vars; add a `weekly-summaries` queue processor that generates and stores
+  rows in `ai_summaries`
+- Manual end-to-end test: book a session, confirm an email is actually delivered
+  (not just an in-app `notifications` row)
+
+Deliverable:
+
+- Users receive real emails for session reminders, and weekly AI summaries are generated
+
+---
+
 ### Phase 9 - Frontend MVP
 
 Goal:
@@ -914,7 +969,7 @@ Deliverable:
 
 After the MVP works, improve the project in this order.
 
-### Scale Step 1 - Background Jobs
+### Scale Step 1 - Background Jobs (moved into Phase 8.5)
 
 Add:
 
@@ -930,13 +985,21 @@ Use cases:
 - Missed check-in reminders
 - Inactive client reminders
 
-### Scale Step 2 - Notifications
+> Pulled forward into Phase 8.5 (before the frontend) instead of being deferred —
+> see section 14. The basic reminders queue + worker + in-app notifications API
+> are now part of the MVP build order; missed-check-in / inactive-client reminders
+> and the email queue remain future scale-ups.
+
+### Scale Step 2 - Notifications (basic version moved into Phase 8.5)
 
 Add:
 
 - In-app notifications
 - Mark notification as read
 - Notification dropdown in frontend
+
+> The backend half (notifications API + reminder-driven notification rows) is now
+> part of Phase 8.5. The frontend dropdown remains part of Phase 9 / later scale-up.
 
 ### Scale Step 3 - Storage
 

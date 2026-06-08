@@ -14,6 +14,7 @@ import workoutLogRoutes from './modules/workout/workout-logs.routes.js';
 import { studioSessionsRouter, sessionRouter } from './modules/sessions/sessions.routes.js';
 import { checkInsRouter, measurementsRouter, progressRouter } from './modules/checkins/checkins.routes.js';
 import analyticsRoutes from './modules/analytics/analytics.routes.js';
+import notificationsRoutes from './modules/notifications/notifications.routes.js';
 
 const app = express();
 
@@ -57,6 +58,7 @@ app.use('/api/clients/:clientId/check-ins', checkInsRouter);
 app.use('/api/clients/:clientId/measurements', measurementsRouter);
 app.use('/api/clients/:clientId/progress', progressRouter);
 app.use('/api/studios/:studioId/analytics', analyticsRoutes);
+app.use('/api/notifications', notificationsRoutes);
 // Not found middleware
 app.use(notFoundMiddleware);
 

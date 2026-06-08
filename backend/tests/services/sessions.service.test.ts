@@ -27,7 +27,7 @@ const PAST_START   = new Date(Date.now() - 7_200_000).toISOString();
 const ownerMembership   = { id: 'mem-1', role: 'owner' };
 const trainerMembership = { id: 'mem-2', role: 'trainer' };
 const trainerInStudio   = { id: 'mem-3', role: 'trainer' };
-const clientInStudio    = { id: CLIENT, studio_id: STUDIO, full_name: 'Alice' };
+const clientInStudio    = { id: CLIENT, studio_id: STUDIO, full_name: 'Alice', user_id: 'client-user-0000-0000-000000000006' };
 
 const mockSession = {
   id: SESSION,
@@ -62,7 +62,7 @@ describe('createSession', () => {
     endTime: FUTURE_END,
   };
 
-  // call order: membership → client → trainer → trainerConflict → clientConflict → insert
+  // call order: membership → client → trainer → trainerConflict → clientConflict → insert → reminder jobs insert
   function setupSuccess(membershipData = ownerMembership) {
     from
       .mockReturnValueOnce(qb({ data: membershipData }))   // requester membership
@@ -70,14 +70,15 @@ describe('createSession', () => {
       .mockReturnValueOnce(qb({ data: trainerInStudio }))  // trainer in studio
       .mockReturnValueOnce(qb({ data: [] }))               // trainer conflict (none)
       .mockReturnValueOnce(qb({ data: [] }))               // client conflict (none)
-      .mockReturnValueOnce(qb({ data: mockSession }));     // insert
+      .mockReturnValueOnce(qb({ data: mockSession }))      // insert
+      .mockReturnValueOnce(qb({ data: null }));            // reminder jobs insert
   }
 
   it('owner books a session successfully', async () => {
     setupSuccess();
     const result = await createSession(OWNER, STUDIO, input);
     expect(result).toEqual(mockSession);
-    expect(from).toHaveBeenCalledTimes(6);
+    expect(from).toHaveBeenCalledTimes(7);
   });
 
   it('trainer books a session successfully', async () => {
