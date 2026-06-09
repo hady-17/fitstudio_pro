@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 4%;
+    --surface: 0 0% 6.7%;
+    --elevated: 0 0% 10.2%;
+    --foreground: 0 0% 96.1%;
+
+    --border: 0 0% 16.5%;
+    --input: 0 0% 16.5%;
+    --ring: 24.6 95% 53.1%;
+
+    --primary: 24.6 95% 53.1%;
+    --primary-hover: 27.9 89% 48%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 24.6 95% 53.1%;
+
+    --secondary: 0 0% 6.7%;
+    --secondary-foreground: 0 0% 64.1%;
+
+    --text-muted: 0 0% 32.2%;
+
+    --success: 142.1 70.6% 45.3%;
+    --destructive: 0 84.2% 60.2%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+  }
+}
