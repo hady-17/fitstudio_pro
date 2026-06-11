@@ -12,6 +12,7 @@ import {
   Zap,
   Settings,
   LogOut,
+  ShieldCheck,
 } from 'lucide-react';
 import { createClient } from '@/lib/supabase/client';
 import { useStudio } from '@/lib/context/studio-context';
@@ -73,7 +74,16 @@ export function DashboardShell({ children }: { children: React.ReactNode }) {
             );
           })}
         </nav>
-        <div className="border-t border-border px-3 py-4">
+        <div className="border-t border-border px-3 py-4 space-y-1">
+          {profile?.global_role === 'admin' && (
+            <Link
+              href="/admin"
+              className="flex w-full items-center gap-3 rounded-xl border-l-2 border-transparent px-3 py-2 text-sm font-medium text-destructive transition-all duration-200 ease-in-out hover:border-destructive/40 hover:bg-destructive/5"
+            >
+              <ShieldCheck className="h-4 w-4" />
+              Admin Panel
+            </Link>
+          )}
           <button
             onClick={handleSignOut}
             aria-label="Sign out"

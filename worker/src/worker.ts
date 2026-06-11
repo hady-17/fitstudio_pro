@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { Queue, Worker, type Job } from 'bullmq';
 import { getRedisClient } from './redis.js';
 import { supabaseAdmin } from './supabase.js';

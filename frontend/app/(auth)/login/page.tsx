@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { createClient } from '@/lib/supabase/client';
@@ -14,7 +14,14 @@ export default function LoginPage() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState<string | null>(null);
+  const [message, setMessage] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    setError(params.get('error'));
+    setMessage(params.get('message'));
+  }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -58,7 +65,15 @@ export default function LoginPage() {
             />
           </div>
           <div className="space-y-2">
-            <Label htmlFor="password">Password</Label>
+            <div className="flex items-center justify-between">
+              <Label htmlFor="password">Password</Label>
+              <Link
+                href="/forgot-password"
+                className="text-xs text-primary underline-offset-4 hover:underline"
+              >
+                Forgot password?
+              </Link>
+            </div>
             <Input
               id="password"
               type="password"
@@ -68,7 +83,8 @@ export default function LoginPage() {
               onChange={(e) => setPassword(e.target.value)}
             />
           </div>
-          {error && <p className="text-sm text-red-600">{error}</p>}
+          {message && <p className="text-sm text-green-500">{message}</p>}
+          {error && <p className="text-sm text-destructive">{error}</p>}
           <Button type="submit" className="w-full" disabled={loading}>
             {loading ? 'Signing in...' : 'Sign in'}
           </Button>

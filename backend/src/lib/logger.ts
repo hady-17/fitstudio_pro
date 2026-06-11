@@ -50,12 +50,18 @@ export const logger = winston.createLogger({
   ],
 
   exceptionHandlers: [
+    new winston.transports.Console({
+      format: isProduction ? fileFormat : devConsoleFormat,
+    }),
     new winston.transports.File({
       filename: path.join(logsDir, 'exceptions.log'),
     }),
   ],
 
   rejectionHandlers: [
+    new winston.transports.Console({
+      format: isProduction ? fileFormat : devConsoleFormat,
+    }),
     new winston.transports.File({
       filename: path.join(logsDir, 'rejections.log'),
     }),

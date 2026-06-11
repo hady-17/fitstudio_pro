@@ -15,6 +15,7 @@ import { studioSessionsRouter, sessionRouter } from './modules/sessions/sessions
 import { checkInsRouter, measurementsRouter, progressRouter } from './modules/checkins/checkins.routes.js';
 import analyticsRoutes from './modules/analytics/analytics.routes.js';
 import notificationsRoutes from './modules/notifications/notifications.routes.js';
+import adminRoutes from './modules/admin/admin.routes.js';
 
 const app = express();
 
@@ -59,6 +60,7 @@ app.use('/api/clients/:clientId/measurements', measurementsRouter);
 app.use('/api/clients/:clientId/progress', progressRouter);
 app.use('/api/studios/:studioId/analytics', analyticsRoutes);
 app.use('/api/notifications', notificationsRoutes);
+app.use('/api/admin', adminRoutes);
 // Not found middleware
 app.use(notFoundMiddleware);
 
