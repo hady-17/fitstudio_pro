@@ -967,6 +967,10 @@ Deliverable:
 
 ## 15. Scale Roadmap After MVP
 
+> **Superseded**: this section is now superseded by [`NEXT_PHASE_PLAN.md`](./NEXT_PHASE_PLAN.md),
+> which carries the remaining Scale Steps (and everything beyond them) forward as Phases 1-10.
+> Kept here for historical context only.
+
 After the MVP works, improve the project in this order.
 
 ### Scale Step 1 - Background Jobs (moved into Phase 8.5)
