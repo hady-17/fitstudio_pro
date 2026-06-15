@@ -15,6 +15,10 @@ import {
   createWorkoutLog,
   listWorkoutLogs,
 } from './workouts.service.js';
+import type {
+  ListWorkoutPlansQuery,
+  ListWorkoutLogsQuery,
+} from './workouts.schema.js';
 
 export const createWorkoutPlanController = asyncHandler(
   async (req: Request, res: Response) => {
@@ -96,7 +100,7 @@ export const listWorkoutPlansController = asyncHandler(
   async (req: Request, res: Response) => {
     const { studioId } = req.params;
 
-    const plans = await listWorkoutPlans(req.user!.id, studioId, req.query as any);
+    const plans = await listWorkoutPlans(req.user!.id, studioId, req.query as ListWorkoutPlansQuery);
 
     res.status(200).json({ success: true, data: { plans } });
   },
@@ -176,7 +180,7 @@ export const listWorkoutLogsController = asyncHandler(
   async (req: Request, res: Response) => {
     const { clientId } = req.params;
 
-    const logs = await listWorkoutLogs(req.user!.id, clientId, req.query as any);
+    const logs = await listWorkoutLogs(req.user!.id, clientId, req.query as ListWorkoutLogsQuery);
 
     res.status(200).json({ success: true, data: { logs } });
   },

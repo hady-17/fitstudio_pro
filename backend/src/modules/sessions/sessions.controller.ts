@@ -5,6 +5,7 @@ import {
   listSessions,
   updateSessionStatus,
 } from './sessions.service.js';
+import type { ListSessionsQuery } from './sessions.schema.js';
 
 export const createSessionController = asyncHandler(
   async (req: Request, res: Response) => {
@@ -20,7 +21,7 @@ export const listSessionsController = asyncHandler(
   async (req: Request, res: Response) => {
     const { studioId } = req.params;
 
-    const sessions = await listSessions(req.user!.id, studioId, req.query as any);
+    const sessions = await listSessions(req.user!.id, studioId, req.query as ListSessionsQuery);
 
     res.status(200).json({ success: true, data: { sessions } });
   },

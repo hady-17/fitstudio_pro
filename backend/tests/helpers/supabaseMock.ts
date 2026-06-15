@@ -1,3 +1,9 @@
+type QBResult = {
+  data: unknown;
+  error: unknown;
+  count: number | null;
+};
+
 /**
  * Chainable Supabase query-builder mock.
  * All fluent methods (select, eq, order, …) return `this`.
@@ -5,17 +11,17 @@
  * resolve with the configured { data, error, count } object.
  */
 export function qb(result: {
-  data?: any;
-  error?: any;
+  data?: unknown;
+  error?: unknown;
   count?: number | null;
-} = {}) {
-  const r = {
+} = {}): Record<string, jest.Mock> {
+  const r: QBResult = {
     data: result.data ?? null,
     error: result.error ?? null,
     count: result.count ?? null,
   };
 
-  const b: any = {};
+  const b: Record<string, jest.Mock> = {};
 
   const chainable = [
     'select', 'insert', 'update', 'delete', 'upsert',
@@ -33,13 +39,13 @@ export function qb(result: {
   b.single = jest.fn().mockResolvedValue(r);
 
   // Makes `await builder` work (no terminal method called)
-  b.then = (
-    onFulfilled?: (value: any) => any,
-    onRejected?: (reason: any) => any,
-  ) => Promise.resolve(r).then(onFulfilled, onRejected);
+  b.then = jest.fn((
+    onFulfilled?: (value: QBResult) => unknown,
+    onRejected?: (reason: unknown) => unknown,
+  ) => Promise.resolve(r).then(onFulfilled, onRejected));
 
-  b.catch = (onRejected?: (reason: any) => any) =>
-    Promise.resolve(r).catch(onRejected);
+  b.catch = jest.fn((onRejected?: (reason: unknown) => unknown) =>
+    Promise.resolve(r).catch(onRejected));
 
   return b;
 }

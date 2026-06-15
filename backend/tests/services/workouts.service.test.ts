@@ -103,8 +103,8 @@ const mockLog = {
 // ─ Helpers: sets up the 2 calls inside getWorkoutPlanForWriteOrThrow ─────────
 // call #1: staff membership, call #2: plan lookup
 function setupPlanWriteAccess(
-  membershipData: any = ownerMembership,
-  planData: any = planWriteShape,
+  membershipData: { id: string; role: string } = ownerMembership,
+  planData: typeof planWriteShape = planWriteShape,
 ) {
   from
     .mockReturnValueOnce(qb({ data: membershipData }))  // getStudioStaffMembershipOrThrow

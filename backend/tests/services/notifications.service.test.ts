@@ -42,7 +42,7 @@ describe('listNotifications', () => {
     const builder = qb({ data: [mockNotification] });
     from.mockReturnValueOnce(builder);
 
-    await listNotifications(USER, { unreadOnly: true } as any);
+    await listNotifications(USER, { unreadOnly: true });
 
     expect(builder.is).toHaveBeenCalledWith('read_at', null);
   });

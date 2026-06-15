@@ -41,7 +41,7 @@ const workoutLogs = [
 const activeClients = [{ id: 'client-1' }, { id: 'client-2' }, { id: 'client-3' }];
 const recentCheckIns = [{ client_id: 'client-1' }];
 
-function setupFullOverviewMocks(membership: any) {
+function setupFullOverviewMocks(membership: { id: string; role: string }) {
   from
     .mockReturnValueOnce(qb({ data: membership }))           // membership
     .mockReturnValueOnce(qb({ count: 12 }))                   // activeClientsCount

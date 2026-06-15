@@ -7,6 +7,10 @@ import {
   listMeasurements,
   getClientProgressTrend,
 } from './checkins.service.js';
+import type {
+  ListCheckInsQuery,
+  ListMeasurementsQuery,
+} from './checkins.schema.js';
 
 export const createCheckInController = asyncHandler(
   async (req: Request, res: Response) => {
@@ -22,7 +26,7 @@ export const listCheckInsController = asyncHandler(
   async (req: Request, res: Response) => {
     const { clientId } = req.params;
 
-    const checkIns = await listCheckIns(req.user!.id, clientId, req.query as any);
+    const checkIns = await listCheckIns(req.user!.id, clientId, req.query as ListCheckInsQuery);
 
     res.status(200).json({ success: true, data: { checkIns } });
   },
@@ -42,7 +46,7 @@ export const listMeasurementsController = asyncHandler(
   async (req: Request, res: Response) => {
     const { clientId } = req.params;
 
-    const measurements = await listMeasurements(req.user!.id, clientId, req.query as any);
+    const measurements = await listMeasurements(req.user!.id, clientId, req.query as ListMeasurementsQuery);
 
     res.status(200).json({ success: true, data: { measurements } });
   },

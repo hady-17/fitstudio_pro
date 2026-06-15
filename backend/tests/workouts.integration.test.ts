@@ -30,8 +30,23 @@ jest.mock('../src/lib/supabase.js', () => {
     return nextResponse;
   };
 
-  const createChain = () => {
-    const chain: any = {
+  type SupabaseChainMock = {
+    select: jest.Mock;
+    insert: jest.Mock;
+    update: jest.Mock;
+    delete: jest.Mock;
+    eq: jest.Mock;
+    neq: jest.Mock;
+    or: jest.Mock;
+    order: jest.Mock;
+    limit: jest.Mock;
+    maybeSingle: jest.Mock;
+    single: jest.Mock;
+    then: (resolve: unknown, reject: unknown) => Promise<unknown>;
+  };
+
+  const createChain = (): SupabaseChainMock => {
+    const chain: SupabaseChainMock = {
       select: jest.fn(() => chain),
       insert: jest.fn(() => chain),
       update: jest.fn(() => chain),

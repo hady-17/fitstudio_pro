@@ -1,5 +1,6 @@
 import { supabaseAdmin } from '../../lib/supabase.js';
 import { ApiError } from '../../utils/ApiError.js';
+import type { TablesUpdate } from '../../types/database.types.js';
 import type {
   CreateWorkoutPlanInput,
   CreateWorkoutDayInput,
@@ -445,7 +446,7 @@ export const listWorkoutPlans = async (
 
   if (membership.role === 'trainer') {
     filtered = filtered.filter(
-      (p: any) => p.trainer_id === requesterId || p.client?.trainer_id === requesterId,
+      (p) => p.trainer_id === requesterId || p.client?.trainer_id === requesterId,
     );
   }
 
@@ -463,7 +464,7 @@ export const updateWorkoutPlan = async (
 ) => {
   await getWorkoutPlanForWriteOrThrow(requesterId, studioId, planId);
 
-  const updatePayload: any = {
+  const updatePayload: TablesUpdate<'workout_plans'> = {
     ...(input.title !== undefined && { title: input.title }),
     ...(input.description !== undefined && { description: input.description }),
     ...(input.startDate !== undefined && { start_date: input.startDate }),
@@ -539,7 +540,7 @@ export const updateWorkoutDay = async (
     }
   }
 
-  const updatePayload: any = {
+  const updatePayload: TablesUpdate<'workout_days'> = {
     ...(input.dayNumber !== undefined && { day_number: input.dayNumber }),
     ...(input.title !== undefined && { title: input.title }),
     ...(input.notes !== undefined && { notes: input.notes }),
@@ -609,7 +610,7 @@ export const updateWorkoutItem = async (
     throw new ApiError(404, 'Workout item not found in this day');
   }
 
-  const updatePayload: any = {
+  const updatePayload: TablesUpdate<'workout_items'> = {
     ...(input.sets !== undefined && { sets: input.sets }),
     ...(input.reps !== undefined && { reps: input.reps }),
     ...(input.targetWeight !== undefined && { target_weight: input.targetWeight }),
