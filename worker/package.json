@@ -8,7 +8,7 @@
     "dev": "tsx watch src/worker.ts",
     "build": "tsc",
     "start": "node dist/worker.js",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "typecheck": "tsc --noEmit"
   },
   "keywords": [],
