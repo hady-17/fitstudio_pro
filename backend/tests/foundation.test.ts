@@ -3,6 +3,19 @@
 import request from 'supertest';
 import app from '../src/app.js';
 
+// app.ts transitively imports lib/supabase.ts, which constructs a real
+// @supabase/supabase-js client. On Node 20 (CI), that throws at import time
+// because @supabase/realtime-js requires a native WebSocket (Node 22+).
+// None of the requests below carry an Authorization header, so
+// auth.middleware.ts short-circuits with a 401 before supabaseAdmin is ever
+// called — a minimal mock avoids constructing the real client entirely.
+jest.mock('../src/lib/supabase.js', () => ({
+  supabaseAdmin: {
+    auth: { getUser: jest.fn() },
+    from: jest.fn(),
+  },
+}));
+
 const validStudioId = '00000000-0000-0000-0000-000000000001';
 const validMemberId = '00000000-0000-0000-0000-000000000002';
 const validClientId = '00000000-0000-0000-0000-000000000003';
