@@ -59,8 +59,7 @@ monitored, and covered by CI.
   → **Phase 3**
 - **No Supabase Storage buckets exist** — `avatar_url` and progress photos are dead DB columns
   with no upload path, despite being core to the brief's vision. → **Phase 4**
-- **Forgot/reset-password is coded but non-functional** — blocked purely on local Supabase
-  redirect-URL configuration. Basic auth hygiene is incomplete. → **Phase 2**
+- **Forgot/reset-password** — ✅ **FIXED** (June 25, 2026). Frontend implementation was correct; issue was Supabase redirect URL config with invalid `**` wildcards. Fixed in `supabase/config.toml` line 158. See `PASSWORD_RESET_FIX_SUMMARY.md`. → **Phase 2 COMPLETE**
 - **Only 1:1 trainer↔client sessions exist** — there is no group/class scheduling with
   capacity/waitlist, which is the core value proposition of Mindbody/Glofox/TeamUp.
   → **Phase 6**

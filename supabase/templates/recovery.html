@@ -1,0 +1,13 @@
+<h2>Reset your password</h2>
+
+<p>Follow this link to reset the password for your FitStudio Pro account:</p>
+
+<p>
+  <a href="{{ .SiteURL }}/reset-password?token_hash={{ .TokenHash }}&type=recovery"
+    >Reset password</a
+  >
+</p>
+
+<p>If you didn't request this, you can safely ignore this email.</p>
+
+<p>Alternatively, enter the code: {{ .Token }}</p>

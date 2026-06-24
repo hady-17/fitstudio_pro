@@ -1,7 +1,13 @@
 import { createServerClient } from '@supabase/ssr';
 import { NextResponse, type NextRequest } from 'next/server';
 
-const PUBLIC_PATHS = ['/login', '/register'];
+// Paths accessible without authentication
+const PUBLIC_PATHS = ['/login', '/register', '/forgot-password', '/reset-password'];
+
+// Paths a logged-in user should be redirected away from (to dashboard).
+// Note: forgot-password/reset-password are intentionally excluded — a user
+// completing a reset has a temporary session and must stay on the page.
+const AUTH_REDIRECT_PATHS = ['/login', '/register'];
 
 export async function updateSession(request: NextRequest) {
   let response = NextResponse.next({ request });
@@ -35,6 +41,9 @@ export async function updateSession(request: NextRequest) {
   const isPublicPath = PUBLIC_PATHS.some((path) =>
     request.nextUrl.pathname.startsWith(path),
   );
+  const isAuthRedirectPath = AUTH_REDIRECT_PATHS.some((path) =>
+    request.nextUrl.pathname.startsWith(path),
+  );
 
   if (!user && !isPublicPath) {
     const loginUrl = request.nextUrl.clone();
@@ -42,7 +51,7 @@ export async function updateSession(request: NextRequest) {
     return NextResponse.redirect(loginUrl);
   }
 
-  if (user && isPublicPath) {
+  if (user && isAuthRedirectPath) {
     const dashboardUrl = request.nextUrl.clone();
     dashboardUrl.pathname = '/dashboard';
     return NextResponse.redirect(dashboardUrl);

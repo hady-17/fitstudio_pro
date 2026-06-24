@@ -14,6 +14,7 @@ import {
   LogOut,
   ShieldCheck,
 } from 'lucide-react';
+import { NotificationsDropdown } from '@/components/notifications-dropdown';
 import { createClient } from '@/lib/supabase/client';
 import { useStudio } from '@/lib/context/studio-context';
 import { cn } from '@/lib/utils';
@@ -116,9 +117,12 @@ export function DashboardShell({ children }: { children: React.ReactNode }) {
             )}
             {activeRole && <p className="text-xs font-semibold uppercase tracking-widest text-muted">{activeRole}</p>}
           </div>
-          <div className="text-right text-sm">
-            <p className="font-medium text-foreground">{profile?.full_name ?? '—'}</p>
-            <p className="text-secondary-foreground">{profile?.email}</p>
+          <div className="flex items-center gap-3">
+            <NotificationsDropdown />
+            <div className="text-right text-sm">
+              <p className="font-medium text-foreground">{profile?.full_name ?? '—'}</p>
+              <p className="text-secondary-foreground">{profile?.email}</p>
+            </div>
           </div>
         </header>
 
