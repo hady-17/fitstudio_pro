@@ -18,21 +18,41 @@ export default function ResetPasswordPage() {
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
+    const tokenHash = params.get('token_hash');
+    const type = params.get('type');
     const code = params.get('code');
 
-    if (!code) {
-      setError('No reset link found. Please request a new password reset.');
+    const supabase = createClient();
+
+    // Preferred flow: token_hash from the recovery email. This does not depend
+    // on a PKCE code verifier, so it works across browsers and devices.
+    if (tokenHash) {
+      supabase.auth
+        .verifyOtp({ token_hash: tokenHash, type: (type as 'recovery') || 'recovery' })
+        .then(({ error }) => {
+          if (error) {
+            setError('This reset link is invalid or has expired. Please request a new one.');
+          } else {
+            setReady(true);
+          }
+        });
       return;
     }
 
-    const supabase = createClient();
-    supabase.auth.exchangeCodeForSession(code).then(({ error }) => {
-      if (error) {
-        setError('This reset link is invalid or has expired. Please request a new one.');
-      } else {
-        setReady(true);
-      }
-    });
+    // Fallback: PKCE code flow (older links). Requires the code verifier that
+    // was stored when the reset was requested in this browser.
+    if (code) {
+      supabase.auth.exchangeCodeForSession(code).then(({ error }) => {
+        if (error) {
+          setError('This reset link is invalid or has expired. Please request a new one.');
+        } else {
+          setReady(true);
+        }
+      });
+      return;
+    }
+
+    setError('No reset link found. Please request a new password reset.');
   }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
